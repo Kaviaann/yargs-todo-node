@@ -9,5 +9,5 @@ Documentation 😋💜 :
     
     yargs :
     
-        `const argv = yargs
-            .command(['add','a']`
+        ```const argv = yargs
+            .command(['add','a']```
