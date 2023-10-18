@@ -16,7 +16,7 @@ const dir  = path.slice(0, path.lastIndexOf('/')+1);
 
 //StartUp
 if(fs.pathExistsSync(path) === false){
-    createFile("hi")
+    createFile();
 };
 
 
@@ -25,7 +25,7 @@ if(fs.pathExistsSync(path) === false){
 
 //Yargs
 const argv = yargs 
-    .command(['add', 'a'], 'Menambahkan List', (yargs) => {
+    .command(['add', 'a'], 'Menulis Data Ke List', (yargs) => {
         yargs
             .options('data', {
                 describe:'Write Data To List',
@@ -79,10 +79,10 @@ switch(argv._[0]){
 
 
 //Function
-function createFile(name){
+function createFile(info){
     const data = [
         {
-            data : [name]
+            data : [info]
         }
     ] || []
 
