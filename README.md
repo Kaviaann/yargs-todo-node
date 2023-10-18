@@ -1,3 +1,12 @@
 # yargs-todo-node
 
-documentation will i do later! 💜😋
+Documentation 😋💜 :
+
+    Node Modules : 
+        yargs (npm i yargs)
+        fs-extra (npm i fs-extra)
+
+    
+    yargs :
+    
+        
